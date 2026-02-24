@@ -312,7 +312,7 @@ function History() {
     },
     {
       company: "DroneDeploy",
-      role: "Software Engineer",
+      role: "MERN Developer and Software Engineer",
       location: "San Francisco, CA",
       date: "Oct 2016 - Feb 2020",
       link: "#",
@@ -348,7 +348,7 @@ function History() {
     },
     {
       company: "WLCM App Studio",
-      role: "Full Stack Developer",
+      role: "Frontend UI/UX Developer",
       location: "San Francisco, CA",
       date: "Oct 2013 - Oct 2016",
       link: "#",
