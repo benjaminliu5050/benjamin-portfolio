@@ -241,12 +241,23 @@ function About() {
           onClick={() => window.open("https://linkedin.com/in/benjamin-liu-723350383", "_blank")}
         />
         <Image
+          src="/images/logos/github.svg"
+          alt="github logo"
+          width={25}
+          height={25}
+          className="cursor-pointer"
+          onClick={() => window.open("https://github.com/benjaminliu5050", "_blank")}
+        />
+        <Image
           src="/images/logos/email.svg"
           alt="email logo"
           width={25}
           height={25}
           className="cursor-pointer"
-          onClick={() => window.open("mailto:benjaminliu5050@gmail.com", "_blank")}
+          onClick={() => { 
+            navigator.clipboard.writeText("benjaminliu5050@gmail.com");
+            alert("Email address copied!")
+           }}
         />
       </div>
       <ul className="my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
