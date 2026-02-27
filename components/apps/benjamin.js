@@ -144,7 +144,7 @@ export class AboutBenjamin extends Component {
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
         </div>
-        <div
+        {/* <div
           id="resume"
           tabIndex="0"
           onFocus={this.changeScreen}
@@ -161,7 +161,7 @@ export class AboutBenjamin extends Component {
             src="./themes/Yaru/status/download.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
-        </div>
+        </div> */}
       </>
     );
   };
@@ -257,7 +257,7 @@ function About() {
           My key differentiator is designing secure, high-concurrency APIs and identity platforms (SSO, OAuth, JWT, RBAC) while driving performance through observability (logging, monitoring, tracing).
         </li>
         <li className="list-pc my-2 md:text-base">
-          I’ve led end-to-end delivery of systems supporting 5M+ daily operations with measurable reliability and growth impact.
+          I've led end-to-end delivery of systems supporting 5M+ daily operations with measurable reliability and growth impact.
         </li>
       </ul>
     </>
